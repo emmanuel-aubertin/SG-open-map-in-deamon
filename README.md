@@ -1,8 +1,10 @@
 # How to start Smoking Gun map on Deamon Engine
 
 
+
 ### Setup Deamon engine :
 
+You can follow the official doc of the engine [Here](https://github.com/DaemonEngine/Daemon), and after go to `Launch SG map` bellow.
 #### Dependencies
 Linux (Ubtuntu/Debian) :<br/>
 
@@ -13,7 +15,7 @@ Linux (Ubtuntu/Debian) :<br/>
 
 
 Or here you have the list of all the dependencies : <br/>
- zlib, libgmp, libnettle, libcurl, SDL2, GLEW, libpng, libjpeg ≥ 8, libwebp ≥ 0.2.0, Freetype, OpenAL, libogg, libvorbis, libtheora, libopus, libopusfile, ncurses, libGeoIP
+ `zlib`, `libgmp`, `libnettle`, `libcurl`, `SDL2`, `GLEW`, `libpng`, `libjpeg ≥ 8`, `libwebp ≥ 0.2.0`, `Freetype`, `OpenAL`, `libogg`, `libvorbis`, `libtheora`, `libopus`, `libopusfile`, `ncurses`, `libGeoIP`
 
 #### Download instructions
 
@@ -37,6 +39,8 @@ cmake -H. -Bbuild
 cmake --build build -- -j4
 ```
 
+
+### Launch SG map :
 Extract the pkg/ directory from there: <br/>
 https://dl.unvanquished.net/release/unvanquished_0.51.2.zip<br/>
 ```
