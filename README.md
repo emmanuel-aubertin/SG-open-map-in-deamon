@@ -43,12 +43,25 @@ cmake --build build -- -j4
 ### Launch SG map :
 Extract the pkg/ directory from there: <br/>
 https://dl.unvanquished.net/release/unvanquished_0.51.2.zip<br/>
+
+Download SG map alredy converted (steel in BETA):
+```
+cd /path/to/pkg
+wget -O- http://gg.illwieckz.net/dl/smokinguns/dev/SmokinGunsAssets.get | xargs wget -c
+```
+After this you can launch Daemon Engine 
 ```
 ./daemon -pakpath path/to/pkg 
 ```
+
+
 
 Then in game console (shift+escape or the key on the left of 1) type this:
 ```
 /set g_neverEnd 1
 /devmap dm-name_of_the_SG_map
 ```
+
+You can join us on [discord](https://discord.gg/3dAgyvw7Pb) :)
+
+Thanks too [illwieckz](https://github.com/illwieckz)
